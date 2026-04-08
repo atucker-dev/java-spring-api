@@ -21,7 +21,7 @@ Thumbs.db
 
 # Compiled
 *.class
-*.jar
+# *.jar
 *.war
 *.ear
 *.aar
