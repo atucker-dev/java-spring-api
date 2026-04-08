@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: java-spring-api
+  profiles:
+    active: local # Override with environment variable SPRING_PROFILES_ACTIVE
+
+---
+spring:
+  config:
+    activate:
+      on-profile: local
+
+server:
+  port: 8443
+  ssl:
+    enabled: true
+    key-store: classpath:keystore.p12
+    key-store-type: PKCS12
+    key-alias: local
+    key-store-password: changeit # not sensitive, just for local development
