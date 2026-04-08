@@ -1,11 +1,51 @@
+# Gradle
+.gradle/
+build/
+gradle-app.setting
+!gradle-wrapper.jar
+!gradle-wrapper.properties
+
+# IDE - IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+# IDE - VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Compiled
+*.class
+*.jar
+*.war
+*.ear
+*.aar
+bin/
+
+# Logs
+*.log
+logs/
+
+# Local properties (sensitive info)
+local.properties
+
+# Test output
+test-results/
+reports/
+
+# Kotlin
+*.kotlin_module
+
 # Compiled class file
 *.class
 
 # Log file
 *.log
-
-# BlueJ files
-*.ctxt
 
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
